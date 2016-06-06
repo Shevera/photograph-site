@@ -13,7 +13,7 @@
     body {
        filter: none;
     }
-  </style>
+   </style>
 <![endif]-->
         
 <!--[if lt IE 9]>

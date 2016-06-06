@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Загружаемые скрипты и стили
- */
+* загружаемые скрипты и стили
+*/
 function load_style_script(){
 	wp_enqueue_script('jquery_my', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js');
 }
 
 /**
- * Загружаем скрипты и стили
- */
-add_action('wp_enqueue_scripts' , 'load_style_script');
+* загружаем скрипты и стили
+*/
+add_action('wp_enqueue_scripts', 'load_style_script');
 
 /**
 * меню
